@@ -200,7 +200,7 @@
             }             
          }
          
-         if($flagcorrectpassward == 1 && (!empty($_POST["passward2"]) || (!empty($_POST["key"])) || (!empty($_POST["newkey"])))){
+          if($correctpassward != ""  && (!empty($_POST["passward2"]) || (!empty($_POST["key"])) || (!empty($_POST["newkey"])))){
              $passwards = $_POST["passward2"];
              $keys = $_POST["key"];
              $newkeys = $_POST["newkey"];
